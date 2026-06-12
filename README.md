@@ -1,6 +1,6 @@
-# 🛠️ Hacker Style Wallpaper - v2.0.0
+# 🛠️ Hacker Style Wallpaper - v2.1.0
 
-[![Download APK](https://img.shields.io/badge/Download-APK-brightgreen.svg?style=for-the-badge&logo=android)](https://github.com/RajCode-xs1dd/Hacker-Style-Wallpaper/releases/download/v2.0.0/HackerStyleWallpaper_v2.0.0_release.apk)
+[![Download APK](https://img.shields.io/badge/Download-APK-brightgreen.svg?style=for-the-badge&logo=android)](https://github.com/RajCode-xs1dd/Hacker-Style-Wallpaper/releases/download/v2.1.0/HackerStyleWallpaper_v2.1.0_release.apk)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 
 **Hacker Style Wallpaper** is a professional, high-performance Matrix Rain Live Wallpaper for Android. Designed for enthusiasts who love the "hacker" aesthetic, it offers deep customization and smooth animations.
@@ -26,7 +26,7 @@
 ---
 
 ## 🚀 Installation
-1. **[Download the Latest APK](https://github.com/RajCode-xs1dd/Hacker-Style-Wallpaper/releases/download/v2.0.0/HackerStyleWallpaper_v2.0.0_release.apk)**
+1. **[Download the Latest APK](https://github.com/RajCode-xs1dd/Hacker-Style-Wallpaper/releases/download/v2.1.0/HackerStyleWallpaper_v2.1.0_release.apk)**
 2. Open the file on your Android device.
 3. Allow "Install from Unknown Sources" if prompted.
 4. Launch the app and click **Activate Wallpaper**.
