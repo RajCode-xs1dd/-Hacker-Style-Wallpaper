@@ -8,8 +8,10 @@
 ---
 
 ## 📸 Preview
-*(To add a preview, upload a screenshot to `screenshots/preview.png` and reference it here)*
-![App Landing Page](screenshots/preview.png)
+<p align="center">
+  <img src="screenshots/preview1.jpeg" width="750"  alt=""/> 
+  <img src="screenshots/preview2.jpeg" width="717"  alt=""/>
+</p>
 
 ---
 
