@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    android:orientation="vertical">
+
+    <!-- Big Preview Area -->
+    <FrameLayout
+        android:id="@+id/previewContainer"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#000000">
+        <ImageView
+            android:id="@+id/previewBg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:alpha="0.6"/>
+
+        <!-- Simulation of Matrix Rain for Preview -->
+        <TextView
+            android:id="@+id/previewText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:fontFamily="monospace"
+            android:text="0101010101\n1010101010\n0101010101\n1010101010"
+            android:textColor="#00FF41"
+            android:textSize="18sp"
+            android:lineSpacingMultiplier="1.2"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|end"
+            android:layout_margin="8dp"
+            android:text="PREVIEW"
+            android:textColor="#444444"
+            android:textSize="10sp"
+            android:fontFamily="monospace" />
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <!-- Sliders -->
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Rain Speed" android:textColor="#00FF41" android:fontFamily="monospace" />
+            <SeekBar android:id="@+id/speedSeekBar" android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:progressTint="#00FF41" android:thumbTint="#00FF41" android:max="100" />
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_marginTop="12dp" android:text="Rain Density" android:textColor="#00FF41" android:fontFamily="monospace" />
+            <SeekBar android:id="@+id/densitySeekBar" android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:progressTint="#00FF41" android:thumbTint="#00FF41" android:max="100" />
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_marginTop="12dp" android:text="Font Size" android:textColor="#00FF41" android:fontFamily="monospace" />
+            <SeekBar android:id="@+id/fontSizeSeekBar" android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:progressTint="#00FF41" android:thumbTint="#00FF41" android:max="100" />
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_marginTop="12dp" android:text="Glow Intensity" android:textColor="#00FF41" android:fontFamily="monospace" />
+            <SeekBar android:id="@+id/glowSeekBar" android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:progressTint="#00FF41" android:thumbTint="#00FF41" android:max="100" />
+
+            <!-- Quick Access Grid -->
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:columnCount="2">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/dlgBtnBg"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="4dp"
+                    android:text="Background"
+                    android:textColor="#FFFFFF"
+                    app:strokeColor="#444444" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/dlgBtnColor"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="4dp"
+                    android:text="Rain Color"
+                    android:textColor="#FFFFFF"
+                    app:strokeColor="#444444" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/dlgBtnChar"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="4dp"
+                    android:text="Characters"
+                    android:textColor="#FFFFFF"
+                    app:strokeColor="#444444" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/dlgBtnTheme"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="4dp"
+                    android:text="My Themes"
+                    android:textColor="#FFFFFF"
+                    app:strokeColor="#444444" />
+            </GridLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/dlgBtnAbout"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="About &amp; How to Use"
+                android:textColor="#888888" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
