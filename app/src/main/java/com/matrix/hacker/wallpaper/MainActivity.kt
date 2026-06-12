@@ -67,7 +67,7 @@ class MainActivity : ComponentActivity() {
         }
 
         findViewById<Button>(R.id.btnShare).setOnClickListener {
-            val shareLink = "https://github.com/rajcode_xs1dd/Hacker-Style-Wallpaper/releases/download/v2.0.0/app-debug.apk"
+            val shareLink = "https://github.com/RajCode-xs1dd/Hacker-Style-Wallpaper/releases/download/v2.0.0/app-debug.apk"
             val sendIntent: Intent = Intent().apply {
                 action = Intent.ACTION_SEND
                 putExtra(Intent.EXTRA_TEXT, "Check out the 'Hacker Style Wallpaper'! Download the Wallpaper here: $shareLink")
@@ -77,7 +77,7 @@ class MainActivity : ComponentActivity() {
         }
 
         findViewById<Button>(R.id.btnUpdate).setOnClickListener {
-            val url = "https://github.com/rajcode_xs1dd/Hacker-Style-Wallpaper"
+            val url = "https://github.com/RajCode-xs1dd/Hacker-Style-Wallpaper"
             val intent = Intent(Intent.ACTION_VIEW)
             intent.data = Uri.parse(url)
             startActivity(intent)
