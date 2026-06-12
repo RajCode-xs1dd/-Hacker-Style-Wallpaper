@@ -42,8 +42,19 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        updateVersionText()
         loadLogo()
         setupButtons()
+    }
+
+    private fun updateVersionText() {
+        try {
+            val pInfo = packageManager.getPackageInfo(packageName, 0)
+            val version = pInfo.versionName
+            findViewById<TextView>(R.id.tvVersion).text = "Version $version"
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
     }
 
     private fun loadLogo() {
