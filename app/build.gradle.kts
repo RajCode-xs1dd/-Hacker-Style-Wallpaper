@@ -4,7 +4,7 @@ plugins {
 }
 
 base {
-    archivesName.set("binary-rain")
+    archivesName.set("app")
 }
 
 android {

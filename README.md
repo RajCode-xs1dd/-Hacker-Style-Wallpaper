@@ -1,19 +1,40 @@
-# Hacker Style Wallpaper
+# 🛠️ Hacker Style Wallpaper - v2.0.0
 
-A professional Matrix Rain Live Wallpaper application for Android with high customization options.
+[![Download APK](https://img.shields.io/badge/Download-APK-brightgreen.svg?style=for-the-badge&logo=android)](https://github.com/rajcode_xs1dd/Hacker-Style-Wallpaper/releases/download/v2.0.0/app-debug.apk)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 
-## Features
-- **Dynamic Character Sets**: Binary, Hexadecimal, Matrix Symbols, and Mixed mode.
-- **Background Customization**: Choose from preset hacker-themed backgrounds or use your own from the gallery.
-- **Pro Dashboard**: Real-time preview to adjust speed, density, font size, and glow intensity.
-- **Theme System**: Save your favorite configurations as custom themes.
-- **Performance Optimized**: Built with `WallpaperService` for smooth animation and low battery impact.
+**Hacker Style Wallpaper** is a professional, high-performance Matrix Rain Live Wallpaper for Android. Designed for enthusiasts who love the "hacker" aesthetic, it offers deep customization and smooth animations.
 
-## Version
-- **Current Version**: 2.0.0
-- **Developer**: RajCode
+---
 
-## How to Use
-1. Install the APK.
-2. Open the app and click **Setting** to customize.
-3. Click **Activate Wallpaper** to apply the live wallpaper to your home or lock screen.
+## 📸 Preview
+*(To add a preview, upload a screenshot to `screenshots/preview.png` and reference it here)*
+![App Landing Page](screenshots/preview.png)
+
+---
+
+## ✨ Key Features
+- **🎯 Pro Dashboard**: Real-time preview while you adjust settings.
+- **🧬 Multiple Character Sets**: Choose between Binary (`0101`), Hexadecimal (`A F 9`), classic Matrix Symbols, or a Mixed mode.
+- **🖼️ Custom Backgrounds**: Use built-in hacker silhouettes or choose any image from your Gallery.
+- **🎨 Color & Glow**: Customize the rain color and glow intensity for that perfect neon look.
+- **💾 Theme System**: Save your favorite configurations as presets to switch styles instantly.
+- **⚡ Performance Optimized**: Native `WallpaperService` implementation ensures low battery consumption.
+
+---
+
+## 🚀 Installation
+1. **[Download the Latest APK](https://github.com/rajcode_xs1dd/Hacker-Style-Wallpaper/releases/download/v2.0.0/app-debug.apk)**
+2. Open the file on your Android device.
+3. Allow "Install from Unknown Sources" if prompted.
+4. Launch the app and click **Activate Wallpaper**.
+
+---
+
+## 👨‍💻 Developer
+Developed with ❤️ by **RajCode**.
+
+---
+
+## 📄 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

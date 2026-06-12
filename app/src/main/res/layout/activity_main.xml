@@ -89,15 +89,15 @@
                 app:strokeColor="#00FF41" />
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/btnRate"
+                android:id="@+id/btnUpdate"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                 android:layout_width="220dp"
                 android:layout_height="55dp"
                 android:layout_marginBottom="30dp"
                 android:fontFamily="monospace"
-                android:text="Rate App"
+                android:text="@string/btn_check_update"
                 android:textColor="#00FF41"
-                app:icon="@android:drawable/btn_star_big_on"
+                app:icon="@android:drawable/stat_sys_download"
                 app:iconTint="#00FF41"
                 app:strokeColor="#00FF41" />
 
